@@ -3,4 +3,4 @@
 
 ---
 
-## Getting Started
+## Why Git?
