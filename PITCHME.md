@@ -135,4 +135,46 @@ Then merge
 
 ---
 
+## Working with history
+
+---
+
+## Git Revert
+
+For one recent commit
+
+```
+git revert HEAD~1
+```
+
+For more than one commit
+
+```
+git revert HEAD~3..HEAD~1
+```
+
+---
+
+## Git Reset
+
+Reset the last 2 commits
+
+```
+git reset HEAD~2
+```
+
+---
+
+## Recovering the deleted commit
+
+Finding the recovering target
+
+```
+git reflog
+```
+
+Then use git reset or revert
+
+---
+
 # For Academy
