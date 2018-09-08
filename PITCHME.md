@@ -121,6 +121,20 @@ For checking into master (master is a base)
 
 ## Handling conflicts
 
++++
+
+@title[Binary Conflicts]
+
+## Resolving conflicts
+
+### For Binary Files
+
+```
+git checkout --theirs/ours -- "fi*.*"
+```
+
+before add and merge
+
 ---
 
 ## Branching
